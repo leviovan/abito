@@ -1,6 +1,6 @@
 html{
 
-    background-color: lemonchiffon;
+    /* background-color: lemonchiffon; */
     color: #0A143A;
 }
 body{
@@ -8,11 +8,14 @@ body{
     font-size: 14px;
    
 }
+.container{
+    max-width: 1146px;
+    margin: auto; 
+}
 header{
     padding-top: 30px;
-    max-width: 1446px;
-    margin: auto;
-    
+    padding-bottom: 30px;
+    margin-bottom: 12px;
 }
 
 .navbar
@@ -88,5 +91,112 @@ header{
     
     margin-left:5px ;
 }
+.page-content{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    grid-column-gap: 30px;
+}
+.card-img{
 
+    border-radius: 10px;
+    width: 264px;
+    height: 178px;
+    object-fit: cover;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    
+    margin-bottom: 20px;;
+}
+.card:not(:nth-child(3n)){
+    
+    margin-right: 20px;;
+}
+.card-title{
+    font-size: 16px;
+    line-height: 19px;
+    color: #256EEB;    
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.card-header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.like{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 15px;
+}
+.card-price{
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 10px;
+    display: block;
+}
+.card-text{
+    font-size: 14px;
+    line-height: 16px;
+    color: #C4C4C4;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+.card-link{
+    text-decoration: none;
+}
+.block-img{
+    margin-bottom: 7px;
+}
+.block-title
+{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+.serves-text{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    max-width: 217px;
+    margin-top: 0px;
+}
+.block-servise{
+    margin-bottom: 25px;
+}
+.footer-text{
+    font-size: 14px;
+    line-height: 16px;
+    color: #C4C4C4;
+}
+.footer-menu{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    margin-bottom:16px;
+}
+.footer-text
+{
+    margin-top: 18px;
+    margin-bottom: 5px;
+}
+.footer-link{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    margin-bottom:16px;
+    color: #0A143A;
+}
 
