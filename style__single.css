@@ -1,0 +1,111 @@
+.main-single{
+    display: flex;
+}
+
+.content{
+    margin-right: 30px;
+    max-width: 460px;
+}
+.swipper-img{
+
+    border-radius: 10px;
+    width: 100%;
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .mySwiper2 {
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  .mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+
+  }
+
+  .mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+    border-radius: 10px;
+  }
+
+  .mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+  }
+  .content-text{
+    font-size: 14px;
+    line-height: 140%;
+  }
+  .page-title{
+
+    margin-top: 0px;
+    margin-bottom: 25px;
+  }
+  .wrapper-author{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 264px;
+  }
+  .author-avatar{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .author-fio{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: block;
+    margin-bottom: 4px;
+  }
+  .author-rating{
+    margin-bottom: 5px;
+      
+  }
+  .rating-counter{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    opacity: 0.5;
+    margin-left: 5px;
+  }
+  .button-block{
+      border: none;
+      width: 100%;
+      height: 54px;
+      display: block;
+      margin-bottom: 14px;
+  }
+  .button-second{
+    background: #14B4BE;
+    border-radius: 5px;
+    color: white;
+  }
+  .single-price{
+    
+    font-size: 24px;
+    
+    margin-bottom: 25px;
+    display: block;
+  }
+  
+  
