@@ -2,11 +2,10 @@
 <html>
     <head>
         <meta charset="utf8">
-        <meta name='viewport' content="width=device-width, intial-scale=1.0" > 
+        <meta name='viewport' content="width=device-width, initial-scale=1.0" > 
         <title>
             Avito
         </title>
-        <meta name='viewport' content="width=device-width, intial-scale=1.0" > 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -19,30 +18,46 @@
     <body>
         <header class="header container">      
             <div class="navbar">
-                <a href="/index.html" class="logo">  </a>
-                <img src="img/box 1.svg" alt="" class="logoimg">
+                <a href="/index.html" class="logo">  
+                <img src="img/box 1.svg" alt="" class="logoimg"></a>
             
-                <nav class="navbar-menu">
-                    <ul class="menu">
-                        <li class="menu-item">
-                            <a href="#" class="menu-link"> Меню</a>
-                        </li> 
-                        <li class="menu-item">
-                            <a href="#" class="menu-link"> Недвижимость</a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="#" class="menu-link">Рабата</a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="#" class="menu-link"> Услуги</a>
-                        </li>
-                    </ul>
-                </nav>
-                
-                <div class="button-group">
-                    <a href="#" class="button button-link"> Вход и регистрация</a>
-                    <a href="#" class="button button-primary"> Подавть обьявление </a>
+                <div class="nav-panel">
+                    <button class='closed-navbar'>
+                        <svg width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L11.5 15.5M1 15.5L11.5 1" stroke="black"/>
+                        </svg>
+                    </button>>
+                    <nav class="navbar-menu">
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a href="#" class="menu-link"> Меню</a>
+                            </li> 
+                            <li class="menu-item">
+                                <a href="#" class="menu-link"> Недвижимость</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">Рабата</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link"> Услуги</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                    <div class="button-group">
+                        <a href="#" class="button button-link"> Вход и регистрация</a>
+                        <a href="#" class="button button-primary"> Подавть обьявление </a>
+                    </div>
+                    
                 </div>
+                <button class="button-hamburger"> <svg width="30" height="16" viewBox="0 0 30 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.937476 2.37501H29.0624C29.58 2.37501 29.9999 1.95498 29.9999 1.43754C29.9999 0.920016 29.5799 0.500061 29.0624 0.500061H0.937476C0.419955 0.500061 0 0.920094 0 1.43754C0 1.95498 0.420033 2.37501 0.937476 2.37501Z" fill="black"/>
+                    <path d="M29.0624 7.06256H0.937476C0.419955 7.06256 0 7.48259 0 8.00003C0 8.51747 0.420033 8.9375 0.937476 8.9375H29.0624C29.58 8.9375 29.9999 8.51747 29.9999 8.00003C29.9999 7.48259 29.58 7.06256 29.0624 7.06256Z" fill="black"/>
+                    <path d="M29.0625 13.625H10.3125C9.79495 13.625 9.375 14.0451 9.375 14.5625C9.375 15.08 9.79503 15.5 10.3125 15.5H29.0625C29.58 15.5 29.9999 15.0799 29.9999 14.5625C30 14.045 29.58 13.625 29.0625 13.625Z" fill="black"/>
+                    </svg>
+                    </button>
+                    
+                        
             </div>
                 <div class="search-panel">
                     <input type="search" class="search-input" placeholder="Поиск по объявлениям "> 
@@ -59,7 +74,7 @@
 
         <div class="page-content container">
             <main class="main main-single"> 
-                <div class="content">               
+                <div class="content content-single">               
                     <h2 class="page-title"> Электросамокат kugo x2</h2>
                     <div
                     style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
@@ -67,19 +82,19 @@
             
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                          <img src="img/Rectangle 3.svg" />
+                          <img class="swiper-img"src="img/Rectangle 3.svg" />
                         </div>
                         <div class="swiper-slide">
-                          <img src="img/Rectangle 5.png" />
+                          <img class="swiper-img" src="img/Rectangle 5.png" />
                         </div>
                         <div class="swiper-slide">
-                          <img src="img/Rectangle 6.svg" />
+                          <img class="swiper-img" src="img/Rectangle 6.svg" />
                         </div>
                         <div class="swiper-slide">
-                          <img src="img/Rectangle 7.png" />
+                          <img  class="swiper-img" src="img/Rectangle 7.png" />
                         </div>
                         <div class="swiper-slide">
-                          <img src="img/Rectangle 8.png" />
+                          <img class="swiper-img" src="img/Rectangle 8.png" />
                         </div>
                       
                       </div>
@@ -157,8 +172,8 @@
             <aside class="sidebar">
                 <h3 class="page-title"> Сервисы и Услуги</h3>  
                 <div class="block-servises">
-                    <a href="#" class="addd"><img src="img/image 1.svg" alt=""></a>
-                    <a href="#" class="addd"><img src="img/image 2.svg" alt=""></a>
+                    <a href="#" ><img class="addd"src="img/image 1.svg" alt=""></a>
+                    <a href="#" ><img class="addd" src="img/image 2.svg" alt=""></a>
                     <footer class="footer">
                         <p class="footer-text">© ООО «Абито», 2011–2021</p>
                          <ul class="footer-menu">
@@ -195,8 +210,4 @@
     </body>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
-   
 </html>
